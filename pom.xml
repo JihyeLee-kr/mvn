@@ -110,7 +110,7 @@
             ${scac.output.dir}/sca_${project.artifactId}_rev${project.version}.jar
           </sarLocation>
           <serverUrl>
-            http://129.146.51.90:9074
+            http://129.146.51.90:9073
           </serverUrl>
           <user>
             weblogic
@@ -136,6 +136,16 @@
       </plugin>
     </plugins>
   </build>
-  <repositories/>
-  <pluginRepositories/>
+  <repositories>
+    <repository>
+      <id>maven.oracle.com</id>
+      <url>https://maven.oracle.com</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>maven.oracle.com</id>
+      <url>https://maven.oracle.com</url>
+    </pluginRepository>
+  </pluginRepositories>
 </project>
